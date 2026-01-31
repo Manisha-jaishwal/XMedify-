@@ -9,6 +9,7 @@ function SlidePrevButton() {
         <Box
             component='img'
             src={prev}
+            alt="Previous"
             onClick={() => swiper.slidePrev()}
             height={48}
             width={48}
@@ -28,6 +29,7 @@ function SlideNextButton() {
         <Box
             component='img'
             src={next}
+            alt="Next"
             onClick={() => swiper.slideNext()}
             height={48}
             width={48}
