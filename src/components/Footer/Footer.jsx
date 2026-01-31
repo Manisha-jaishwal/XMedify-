@@ -1,9 +1,9 @@
 import {
   Box,
-  Button,
+  //Button,
   Container,
   Grid,
-  Link,
+  //Link,
   Stack,
   Typography,
 } from "@mui/material";
@@ -27,10 +27,10 @@ export default function Footer() {
             >
               <Box src={logo} height={36} alt="Medify" component="img" mb={2} />
               <Stack direction="row" spacing={1.5}>
-                <Box component="img" src={fb} height={36} />
-                <Box component="img" src={twitter} height={36} />
-                <Box component="img" src={yt} height={36} />
-                <Box component="img" src={pinterest} height={36} />
+                <Box component="img" src={fb} height={36} alt="facebook"/>
+                <Box component="img" src={twitter} height={36} alt="twitter" />
+                <Box component="img" src={yt} height={36} alt="youtube"/>
+                <Box component="img" src={pinterest} height={36} alt="pinterest"/>
               </Stack>
             </Stack>
           </Grid>

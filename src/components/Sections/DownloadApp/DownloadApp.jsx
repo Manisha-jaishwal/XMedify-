@@ -13,7 +13,13 @@ export default function DownloadApp() {
       <Container>
         <Grid container spacing={3} alignItems="center">
           <Grid item xs={12} md={5.5}>
-            <Box src={mobile} component="img" width={1} height="auto" />
+            <Box
+              component="img"
+              src={mobile}
+              alt="Medify mobile app preview"
+              width={1}
+              height="auto"
+            />
           </Grid>
 
           <Grid item xs={12} md={6.5}>
@@ -32,8 +38,9 @@ export default function DownloadApp() {
               </Typography>
 
               <Box
-                src={arrow}
                 component="img"
+                src={arrow}
+                alt=""
                 width={{ xs: 24, md: 40 }}
                 position="absolute"
                 left={0}
@@ -53,13 +60,20 @@ export default function DownloadApp() {
                     py: 1.5,
                     borderRadius: 1.5,
                   }}
-                  size={"large"}
-                  startIcon={<img src={playstore} height={24} />}
+                  size="large"
+                  startIcon={
+                    <img
+                      src={playstore}
+                      alt="Google Play"
+                      height={24}
+                    />
+                  }
                   variant="contained"
                   disableElevation
                 >
                   Google Play
                 </Button>
+
                 <Button
                   sx={{
                     bgcolor: "#333",
@@ -68,7 +82,13 @@ export default function DownloadApp() {
                     borderRadius: 1.5,
                   }}
                   size="large"
-                  startIcon={<img src={apple} height={24} />}
+                  startIcon={
+                    <img
+                      src={apple}
+                      alt="Apple App Store"
+                      height={24}
+                    />
+                  }
                   variant="contained"
                   disableElevation
                 >

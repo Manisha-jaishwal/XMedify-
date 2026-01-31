@@ -11,7 +11,7 @@ import AutohideSnackbar from "../components/AutohideSnackbar/AutohideSnackbar";
 import NavBar from "../components/NavBar/NavBar";
 
 export default function Search() {
-  const [seachParams, setSearchParams] = useSearchParams();
+  const [seachParams, ] = useSearchParams();
   const [hospitals, setHospitals] = useState([]);
   const [state, setState] = useState(seachParams.get("state"));
   const [city, setCity] = useState(seachParams.get("city"));
