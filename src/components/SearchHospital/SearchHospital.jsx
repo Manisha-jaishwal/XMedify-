@@ -139,7 +139,7 @@ export default function SearchHospital() {
 
       {/* SEARCH BUTTON */}
       <Button
-        id="search"
+        id="searchBtn"
         type="submit"
         variant="contained"
         size="large"
